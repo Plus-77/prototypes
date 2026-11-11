@@ -11,15 +11,15 @@ const tree = [
   ]}
 ]
 const devices = [
-  { name: "西湖小区东门监控", node: "xx", shelf: true, biz: true, bizIds: ["school"], online: "在线", gov: "治理中", coord: "无", type: "枪机", vendor: "海康", unit: "文新派出所", area: "西溪街道", areaPath: "杭州市 / 西湖区 / 西溪街道", tags: "学校周边", install: "2024-05-01", warranty: "2027-05-01" },
+  { name: "西湖小区东门监控", node: "xx", shelf: true, biz: true, bizIds: ["school"], online: "在线", gov: "治理中", coord: "无", type: "枪机", vendor: "海康", unit: "文新派出所", area: "西溪街道", areaPath: "浙江省 / 杭州市 / 西湖区 / 西溪街道", tags: "学校周边", install: "2024-05-01", warranty: "2027-05-01" },
   { name: "文三路交叉口北向", node: "", shelf: false, biz: false, online: "在线", gov: "未治理", coord: "无", type: "—", vendor: "—", unit: "—", area: "—", areaPath: "", tags: "—", install: "", warranty: "" },
-  { name: "市府大楼球机", node: "xh", shelf: true, biz: false, online: "离线", gov: "治理中", coord: "有", type: "球机", vendor: "大华", unit: "北山派出所", area: "西湖区", areaPath: "杭州市 / 西湖区", tags: "—", install: "2023-08-12", warranty: "2026-08-12" },
-  { name: "学校门口球机", node: "xx", shelf: true, biz: true, bizIds: ["school", "hospital"], online: "在线", gov: "已治理", coord: "有", type: "球机", vendor: "海康", unit: "文新派出所", area: "西溪街道", areaPath: "杭州市 / 西湖区 / 西溪街道", tags: "学校周边；医院周边", install: "2022-03-01", warranty: "2025-03-01" },
-  { name: "文二路西口枪机", node: "xx", shelf: true, biz: false, online: "在线", gov: "治理中", coord: "无", type: "枪机", vendor: "海康", unit: "文新派出所", area: "西溪街道", areaPath: "杭州市 / 西湖区 / 西溪街道", tags: "—", install: "", warranty: "" },
+  { name: "市府大楼球机", node: "xh", shelf: true, biz: false, online: "离线", gov: "治理中", coord: "有", type: "球机", vendor: "大华", unit: "北山派出所", area: "西湖区", areaPath: "浙江省 / 杭州市 / 西湖区", tags: "—", install: "2023-08-12", warranty: "2026-08-12" },
+  { name: "学校门口球机", node: "xx", shelf: true, biz: true, bizIds: ["school", "hospital"], online: "在线", gov: "已治理", coord: "有", type: "球机", vendor: "海康", unit: "文新派出所", area: "西溪街道", areaPath: "浙江省 / 杭州市 / 西湖区 / 西溪街道", tags: "学校周边；医院周边", install: "2022-03-01", warranty: "2025-03-01" },
+  { name: "文二路西口枪机", node: "xx", shelf: true, biz: false, online: "在线", gov: "治理中", coord: "无", type: "枪机", vendor: "海康", unit: "文新派出所", area: "西溪街道", areaPath: "浙江省 / 杭州市 / 西湖区 / 西溪街道", tags: "—", install: "", warranty: "" },
   { name: "黄龙体育中心球机", node: "", shelf: false, biz: false, online: "在线", gov: "未治理", coord: "无", type: "球机", vendor: "大华", unit: "—", area: "—", areaPath: "", tags: "—", install: "", warranty: "" },
-  { name: "北山路人行道", node: "bs", shelf: true, biz: false, online: "离线", gov: "治理中", coord: "有", type: "枪机", vendor: "宇视", unit: "北山派出所", area: "北山街道", areaPath: "杭州市 / 西湖区 / 北山街道", tags: "—", install: "2021-11-20", warranty: "2024-11-20" },
-  { name: "仓前街道口", node: "yh", shelf: true, biz: true, bizIds: ["road"], online: "在线", gov: "已治理", coord: "有", type: "枪机", vendor: "海康", unit: "仓前派出所", area: "余杭区", areaPath: "杭州市 / 余杭区", tags: "重点路口", install: "2020-06-18", warranty: "2026-06-18" },
-  { name: "留下小学南门", node: "xh", shelf: true, biz: true, bizIds: ["school"], online: "在线", gov: "治理中", coord: "无", type: "球机", vendor: "海康", unit: "留下派出所", area: "留下街道", areaPath: "杭州市 / 西湖区 / 留下街道", tags: "学校周边", install: "", warranty: "" },
+  { name: "北山路人行道", node: "bs", shelf: true, biz: false, online: "离线", gov: "治理中", coord: "有", type: "枪机", vendor: "宇视", unit: "北山派出所", area: "北山街道", areaPath: "浙江省 / 杭州市 / 西湖区 / 北山街道", tags: "—", install: "2021-11-20", warranty: "2024-11-20" },
+  { name: "仓前街道口", node: "yh", shelf: true, biz: true, bizIds: ["road"], online: "在线", gov: "已治理", coord: "有", type: "枪机", vendor: "海康", unit: "仓前派出所", area: "余杭区", areaPath: "浙江省 / 杭州市 / 余杭区", tags: "重点路口", install: "2020-06-18", warranty: "2026-06-18" },
+  { name: "留下小学南门", node: "xh", shelf: true, biz: true, bizIds: ["school"], online: "在线", gov: "治理中", coord: "无", type: "球机", vendor: "海康", unit: "留下派出所", area: "留下街道", areaPath: "浙江省 / 杭州市 / 西湖区 / 留下街道", tags: "学校周边", install: "", warranty: "" },
   { name: "西溪湿地入口", node: "", shelf: false, biz: false, online: "在线", gov: "未治理", coord: "无", type: "—", vendor: "—", unit: "—", area: "—", areaPath: "", tags: "—", install: "", warranty: "" }
 ]
 const treeCounts = {
@@ -50,14 +50,21 @@ const unitTree = [
   ]}
 ]
 const areaOptions = [
-  { value: "杭州市", label: "杭州市", children: [
-    { value: "西湖区", label: "西湖区", children: [
-      { value: "西溪街道", label: "西溪街道" },
-      { value: "北山街道", label: "北山街道" },
-      { value: "留下街道", label: "留下街道" }
-    ]},
-    { value: "余杭区", label: "余杭区", children: [
-      { value: "仓前街道", label: "仓前街道" }
+  { value: "浙江省", label: "浙江省", children: [
+    { value: "杭州市", label: "杭州市", children: [
+      { value: "西湖区", label: "西湖区", children: [
+        { value: "西溪街道", label: "西溪街道" },
+        { value: "北山街道", label: "北山街道" },
+        { value: "留下街道", label: "留下街道" }
+      ]},
+      { value: "余杭区", label: "余杭区", children: [
+        { value: "仓前街道", label: "仓前街道" }
+      ]}
+    ]}
+  ]},
+  { value: "江苏省", label: "江苏省", children: [
+    { value: "苏州市", label: "苏州市", children: [
+      { value: "吴江区", label: "吴江区" }
     ]}
   ]}
 ]
@@ -149,9 +156,28 @@ function filterOrgTree(nodes, kw, st) {
   })
   return out
 }
+const deviceMetaMap = {
+  "西湖小区东门监控": { platform: "西湖区级平台", orgPath: "市公安局 / 西湖分局 / 文新派出所" },
+  "文三路交叉口北向": { platform: "西湖区级平台", orgPath: "市公安局 / 西湖分局 / 文新派出所" },
+  "学校门口球机": { platform: "市直平台", orgPath: "市公安局 / 西湖分局 / 文新派出所" },
+  "北山路球机": { platform: "西湖区级平台", orgPath: "市公安局 / 西湖分局 / 北山派出所" },
+  "宝石山入口": { platform: "西湖区级平台", orgPath: "市公安局 / 西湖分局 / 北山派出所" },
+  "仓前街道球机": { platform: "余杭区级平台", orgPath: "市公安局 / 余杭分局 / 仓前派出所" },
+  "校园北门": { platform: "西湖区级平台", orgPath: "市公安局 / 西湖分局 / 文新派出所" },
+  "校园南门": { platform: "西湖区级平台", orgPath: "市公安局 / 西湖分局 / 文新派出所" },
+  "文三路小学北门": { platform: "西湖区级平台", orgPath: "市公安局 / 西湖分局 / 文新派出所" },
+  "学军中学东门": { platform: "市直平台", orgPath: "市公安局 / 西湖分局 / 文新派出所" },
+  "浙江大学玉泉校门": { platform: "市直平台", orgPath: "市公安局 / 西湖分局 / 北山派出所" },
+  "浙一医院门诊": { platform: "市直平台", orgPath: "市公安局 / 西湖分局 / 文新派出所" },
+  "邵逸夫医院南门": { platform: "市直平台", orgPath: "市公安局 / 上城分局 / 采荷派出所" },
+  "天目山路交叉口": { platform: "西湖区级平台", orgPath: "市公安局 / 西湖分局 / 文新派出所" }
+}
 function collectOrgDevices(n, acc) {
   const list = acc || []
-  ;(n.devices || []).forEach(name => list.push({ name, at: n.label }))
+  ;(n.devices || []).forEach(name => {
+    const meta = deviceMetaMap[name] || { platform: "市直平台", orgPath: "市公安局 / 直属大队" }
+    list.push({ name, at: n.label, platform: meta.platform, orgPath: meta.orgPath })
+  })
   ;(n.children || []).forEach(c => collectOrgDevices(c, list))
   return list
 }
@@ -303,12 +329,58 @@ createApp({
     const gName = ref("西湖小区东门监控")
     const unitId = ref("wx")
     const tagIds = ref(["school", "hospital"])
-    const areaPath = ref(["杭州市", "西湖区", "西溪街道"])
+    const areaPath = ref(["浙江省", "杭州市", "西湖区", "西溪街道"])
     const coordIdx = ref(0)
     const coordLng = ref("")
     const coordLat = ref("")
     const naOpen = ref(false)
     const naReason = ref("车载或移动点位")
+    const naSource = ref("coord")
+    const naChecked = ref([])
+    const detailNa = ref("")
+    const wbNaMarked = ref(false)
+    function confirmNa() {
+      const reason = naReason.value
+      naOpen.value = false
+      if (naSource.value === "coord") {
+        const cur = coordList[coordIdx.value]
+        if (!cur) return
+        cur.q = "na"
+        cur.gov = "不适用"
+        cur.naReason = reason
+        cur.naBy = "我"
+        cur.naTime = "2026-11-11 10:40"
+        const todos = coordMatched.value.filter(d => d.q === "todo")
+        const next = todos[0]
+        if (next) { coordIdx.value = coordList.findIndex(d => d.id === next.id); showCoordDevice(next) }
+        ElMessage.success("已标不适用，该设备不算经纬度达标，但按已治理口径统计")
+      } else if (naSource.value === "detail") {
+        detailNa.value = reason
+        ElMessage.success("已标不适用。经度、纬度仍不具备，按已治理口径统计")
+      } else if (naSource.value === "wb") {
+        if (wbCurrent.value) wbCurrent.value.values.lngNa = reason
+        wbNaMarked.value = true
+        wbMark()
+        ElMessage.success("已标记不适用（原因：" + reason + "），提交后进入审核")
+      }
+    }
+    function cancelNa(row) {
+      if (!row) return
+      row.q = "todo"
+      row.gov = "待治理"
+      row.lnglat = "—"
+      row.naReason = ""
+      row.naBy = ""
+      row.naTime = ""
+      ElMessage.success("已取消不适用，设备回到待治理队列，经纬度重新按未达标统计")
+    }
+    function cancelNaBatch() {
+      const n = naChecked.value.length
+      if (!n) { ElMessage.warning("请先勾选设备"); return }
+      naChecked.value.forEach(cancelNa)
+      naChecked.value = []
+      ElMessage.success("已批量取消 " + n + " 台不适用标记")
+    }
     const aiTab = ref("all")
     const aiOpen = ref(false)
     const aiMode = ref("confirm")
@@ -876,24 +948,24 @@ createApp({
     const dcFilters = reactive({ name: "", deviceId: "", channelId: "", online: "", bind: "", unit: "", tags: [], area: "", missing: [], scope: "", dir: "" })
     const dcApplied = reactive({ name: "", deviceId: "", channelId: "", online: "", bind: "", unit: "", tags: [], area: "", missing: [], scope: "", dir: "" })
     const dcDevices = reactive([
-      { id: "s1", dir: "xx", name: "西湖小区东门监控", deviceId: "33010600001320000001", channelId: "33010600001320000011", online: 1, unit: "文新派出所", tags: "学校周边", area: "杭州市 / 西湖区 / 西溪街道", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: false, missingCoord: true, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: false },
-      { id: "s2", dir: "xx", name: "文三路小学南门", deviceId: "33010600001320000002", channelId: "33010600001320000012", online: 1, unit: "文新派出所", tags: "学校周边", area: "杭州市 / 西湖区 / 西溪街道", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: true, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: false },
-      { id: "s3", dir: "xx", name: "翠苑小学东门", deviceId: "33010600001320000003", channelId: "33010600001320000013", online: 0, unit: "文新派出所", tags: "学校周边", area: "杭州市 / 西湖区 / 西溪街道", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: true },
+      { id: "s1", dir: "xx", name: "西湖小区东门监控", deviceId: "33010600001320000001", channelId: "33010600001320000011", online: 1, unit: "文新派出所", tags: "学校周边", area: "浙江省 / 杭州市 / 西湖区 / 西溪街道", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: false, missingCoord: true, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: false },
+      { id: "s2", dir: "xx", name: "文三路小学南门", deviceId: "33010600001320000002", channelId: "33010600001320000012", online: 1, unit: "文新派出所", tags: "学校周边", area: "浙江省 / 杭州市 / 西湖区 / 西溪街道", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: true, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: false },
+      { id: "s3", dir: "xx", name: "翠苑小学东门", deviceId: "33010600001320000003", channelId: "33010600001320000013", online: 0, unit: "文新派出所", tags: "学校周边", area: "浙江省 / 杭州市 / 西湖区 / 西溪街道", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: true },
       { id: "s4", dir: "xx", name: "学军中学北门", deviceId: "33010600001320000004", channelId: "33010600001320000014", online: 1, unit: "—", tags: "—", area: "", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: false, missingCoord: false, missingUnit: true, missingArea: true, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: true, missingAddr: false },
-      { id: "s5", dir: "bs", name: "北山中学东门", deviceId: "33010600001320000005", channelId: "33010600001320000015", online: 1, unit: "北山派出所", tags: "学校周边", area: "杭州市 / 西湖区 / 北山街道", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: true, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: false },
-      { id: "s6", dir: "bs", name: "北山中学南门", deviceId: "33010600001320000006", channelId: "33010600001320000016", online: 0, unit: "北山派出所", tags: "学校周边", area: "杭州市 / 西湖区 / 北山街道", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: true, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: false },
-      { id: "s7", dir: "yh", name: "求是小学球机", deviceId: "33011000001320000007", channelId: "33011000001320000017", online: 1, unit: "北山派出所", tags: "学校周边", area: "杭州市 / 余杭区", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: true, missingWarranty: false, missingTag: false, missingAddr: false },
-      { id: "s8", dir: "yh", name: "余杭实验学校门口", deviceId: "33011000001320000008", channelId: "33011000001320000018", online: 0, unit: "文新派出所", tags: "学校周边、医院周边", area: "杭州市 / 余杭区", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school", "hospital"], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: true, missingTag: false, missingAddr: false },
+      { id: "s5", dir: "bs", name: "北山中学东门", deviceId: "33010600001320000005", channelId: "33010600001320000015", online: 1, unit: "北山派出所", tags: "学校周边", area: "浙江省 / 杭州市 / 西湖区 / 北山街道", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: true, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: false },
+      { id: "s6", dir: "bs", name: "北山中学南门", deviceId: "33010600001320000006", channelId: "33010600001320000016", online: 0, unit: "北山派出所", tags: "学校周边", area: "浙江省 / 杭州市 / 西湖区 / 北山街道", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: true, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: false },
+      { id: "s7", dir: "yh", name: "求是小学球机", deviceId: "33011000001320000007", channelId: "33011000001320000017", online: 1, unit: "北山派出所", tags: "学校周边", area: "浙江省 / 杭州市 / 余杭区", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: true, missingWarranty: false, missingTag: false, missingAddr: false },
+      { id: "s8", dir: "yh", name: "余杭实验学校门口", deviceId: "33011000001320000008", channelId: "33011000001320000018", online: 0, unit: "文新派出所", tags: "学校周边、医院周边", area: "浙江省 / 杭州市 / 余杭区", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school", "hospital"], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: true, missingTag: false, missingAddr: false },
       { id: "s9", dir: "xx", name: "海曙学校东门", deviceId: "33020300001320000009", channelId: "33020300001320000019", online: 1, unit: "文新派出所", tags: "学校周边", area: "宁波市 / 海曙区", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: false, missingCoord: true, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: true },
-      { id: "s10", dir: "bs", name: "学校周边已拆除", deviceId: "33010600001320000010", channelId: "33010600001320000020", online: 0, unit: "北山派出所", tags: "学校周边", area: "杭州市 / 西湖区 / 北山街道", bind: false, deleted: true, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: false },
-      { id: "s11", dir: "xx", name: "蒋村小学南门", deviceId: "33010600001320000011", channelId: "33010600001320000021", online: 1, unit: "文新派出所", tags: "学校周边", area: "杭州市 / 西湖区 / 西溪街道", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: false },
-      { id: "s12", dir: "xx", name: "留下小学西门", deviceId: "33010600001320000012", channelId: "33010600001320000022", online: 0, unit: "文新派出所", tags: "学校周边", area: "杭州市 / 西湖区 / 西溪街道", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: true, missingCoord: true, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: false },
+      { id: "s10", dir: "bs", name: "学校周边已拆除", deviceId: "33010600001320000010", channelId: "33010600001320000020", online: 0, unit: "北山派出所", tags: "学校周边", area: "浙江省 / 杭州市 / 西湖区 / 北山街道", bind: false, deleted: true, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: false },
+      { id: "s11", dir: "xx", name: "蒋村小学南门", deviceId: "33010600001320000011", channelId: "33010600001320000021", online: 1, unit: "文新派出所", tags: "学校周边", area: "浙江省 / 杭州市 / 西湖区 / 西溪街道", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: false },
+      { id: "s12", dir: "xx", name: "留下小学西门", deviceId: "33010600001320000012", channelId: "33010600001320000022", online: 0, unit: "文新派出所", tags: "学校周边", area: "浙江省 / 杭州市 / 西湖区 / 西溪街道", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "school"], missingName: true, missingCoord: true, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: false },
       { id: "o1", dir: "xx", name: "文三路交叉口北向", deviceId: "33010600001320000013", channelId: "33010600001320000023", online: 0, unit: "—", tags: "—", area: "", bind: false, deleted: false, shelf: false, biz: false, bizIds: [], missingName: true, missingCoord: true, missingUnit: true, missingArea: true, missingType: true, missingVendor: true, missingInstall: true, missingWarranty: true, missingTag: true, missingAddr: true },
-      { id: "o2", dir: "bs", name: "已拆除球机", deviceId: "33010600001320000014", channelId: "33010600001320000024", online: 0, unit: "北山派出所", tags: "—", area: "杭州市 / 西湖区 / 北山街道", bind: false, deleted: true, shelf: true, biz: false, bizIds: [], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: true, missingInstall: true, missingWarranty: true, missingTag: true, missingAddr: false },
-      { id: "o3", dir: "yh", name: "仓前街道球机", deviceId: "33011000001320000015", channelId: "33011000001320000025", online: 1, unit: "仓前派出所", tags: "医院周边", area: "杭州市 / 余杭区", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "hospital"], missingName: false, missingCoord: true, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: true, missingWarranty: true, missingTag: false, missingAddr: false },
-      { id: "o4", dir: "xx", name: "文二路重点路口", deviceId: "33010600001320000016", channelId: "33010600001320000026", online: 1, unit: "文新派出所", tags: "—", area: "杭州市 / 西湖区 / 西溪街道", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "road"], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: true, missingAddr: true },
-      { id: "o5", dir: "yh", name: "浙大医院南门", deviceId: "33011000001320000017", channelId: "33011000001320000027", online: 1, unit: "北山派出所", tags: "医院周边", area: "杭州市 / 余杭区", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "hospital"], missingName: false, missingCoord: true, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: false },
-      { id: "o6", dir: "bs", name: "北山街道离线枪机", deviceId: "33010600001320000018", channelId: "33010600001320000028", online: 0, unit: "北山派出所", tags: "—", area: "杭州市 / 西湖区 / 北山街道", bind: false, deleted: false, shelf: true, biz: false, bizIds: [], missingName: true, missingCoord: true, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: true, missingAddr: false }
+      { id: "o2", dir: "bs", name: "已拆除球机", deviceId: "33010600001320000014", channelId: "33010600001320000024", online: 0, unit: "北山派出所", tags: "—", area: "浙江省 / 杭州市 / 西湖区 / 北山街道", bind: false, deleted: true, shelf: true, biz: false, bizIds: [], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: true, missingInstall: true, missingWarranty: true, missingTag: true, missingAddr: false },
+      { id: "o3", dir: "yh", name: "仓前街道球机", deviceId: "33011000001320000015", channelId: "33011000001320000025", online: 1, unit: "仓前派出所", tags: "医院周边", area: "浙江省 / 杭州市 / 余杭区", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "hospital"], missingName: false, missingCoord: true, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: true, missingWarranty: true, missingTag: false, missingAddr: false },
+      { id: "o4", dir: "xx", name: "文二路重点路口", deviceId: "33010600001320000016", channelId: "33010600001320000026", online: 1, unit: "文新派出所", tags: "—", area: "浙江省 / 杭州市 / 西湖区 / 西溪街道", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "road"], missingName: false, missingCoord: false, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: true, missingAddr: true },
+      { id: "o5", dir: "yh", name: "浙大医院南门", deviceId: "33011000001320000017", channelId: "33011000001320000027", online: 1, unit: "北山派出所", tags: "医院周边", area: "浙江省 / 杭州市 / 余杭区", bind: false, deleted: false, shelf: true, biz: true, bizIds: ["biz-root", "hospital"], missingName: false, missingCoord: true, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: false, missingAddr: false },
+      { id: "o6", dir: "bs", name: "北山街道离线枪机", deviceId: "33010600001320000018", channelId: "33010600001320000028", online: 0, unit: "北山派出所", tags: "—", area: "浙江省 / 杭州市 / 西湖区 / 北山街道", bind: false, deleted: false, shelf: true, biz: false, bizIds: [], missingName: true, missingCoord: true, missingUnit: false, missingArea: false, missingType: false, missingVendor: false, missingInstall: false, missingWarranty: false, missingTag: true, missingAddr: false }
     ])
     const dcView = computed(() => dcDevices.filter(row => {
       const dirs = dcKids[dcDir.value] || []
@@ -1269,20 +1341,20 @@ createApp({
     const govStatusText = { "0": "待治理", "1": "已暂存", "2": "待审核", "3": "已退回", "4": "已完成" }
     const govStatusType = { "0": "warning", "1": "info", "2": "primary", "3": "danger", "4": "success" }
     const govDevices = reactive([
-      { id: 1, name: "西湖小区东门监控", deviceId: "33010600001320000001", channelId: "33010600001320000011", filled: 4, total: 10, status: "0", rejected: 0, comments: "", locked: [], rejectedKeys: [], dir: "xx", missing: { standardName: false, unitId: false, areaId: false, addressDetail: false, deviceType: false, vendor: true, installDate: true, warrantyExpireDate: true, tagIds: false, lngLat: true }, values: { standardName: "西湖小区东门监控", unitId: "文新派出所", areaId: "杭州市 / 西湖区 / 西溪街道", addressDetail: "文三路 100 号", deviceType: "枪机", vendor: "海康", installDate: "2024-03-12", warrantyExpireDate: "2027-03-11", tagIds: "学校周边", lng: "120.131200", lat: "30.280100" }, currents: { standardName: "西湖小区东门监控", unitId: "—", areaId: "杭州市 / 西湖区", addressDetail: "—", deviceType: "枪机", vendor: "—", installDate: "—", warrantyExpireDate: "—", tagIds: "—", lngLat: "120.130000,30.280000" }, suggestions: { vendor: { value: "海康", source: "同目录众数", sample: 12 }, installDate: { value: "2023-06-01", source: "同目录众数", sample: 8 }, warrantyExpireDate: { value: "2026-05-31", source: "同目录推算", sample: 6 }, lngLat: { value: "120.131500,30.280200", source: "坐标反查", sample: 1 } } },
-      { id: 2, name: "文三路交叉口北向", deviceId: "33010600001320000002", channelId: "33010600001320000012", filled: 6, total: 10, status: "1", rejected: 0, comments: "", locked: [], rejectedKeys: [], dir: "xx", missing: { standardName: false, unitId: false, areaId: false, addressDetail: false, deviceType: false, vendor: false, installDate: true, warrantyExpireDate: true, tagIds: false, lngLat: false }, values: { standardName: "文三路交叉口北向", unitId: "文新派出所", areaId: "杭州市 / 西湖区 / 西溪街道", addressDetail: "文三路与学院路交叉口", deviceType: "枪机", vendor: "大华", installDate: "2023-11-02", warrantyExpireDate: "2026-11-01", tagIds: "交叉口", lng: "120.128800", lat: "30.279400" }, currents: { standardName: "文三路交叉口北向", unitId: "—", areaId: "杭州市 / 西湖区", addressDetail: "—", deviceType: "枪机", vendor: "—", installDate: "—", warrantyExpireDate: "—", tagIds: "—", lngLat: "—" }, suggestions: { installDate: { value: "2023-08-15", source: "同目录众数", sample: 10 }, warrantyExpireDate: { value: "2026-08-14", source: "同目录推算", sample: 7 } } },
-      { id: 3, name: "学校门口球机", deviceId: "33010600001320000021", channelId: "33010600001320000031", filled: 8, total: 10, status: "3", rejected: 2, comments: "经纬度与现场不符，业务标签未覆盖学校门口。", locked: ["unitId"], rejectedKeys: ["lngLat", "tagIds"], dir: "xx", missing: { standardName: false, unitId: false, areaId: false, addressDetail: false, deviceType: false, vendor: false, installDate: false, warrantyExpireDate: false, tagIds: true, lngLat: true }, values: { standardName: "学校门口球机", unitId: "文新派出所", areaId: "杭州市 / 西湖区 / 西溪街道", addressDetail: "学军中学东门", deviceType: "球机", vendor: "海康", installDate: "2022-09-01", warrantyExpireDate: "2025-08-31", tagIds: "学校周边", lng: "120.140100", lat: "30.281200" }, currents: { standardName: "学校门口球机", unitId: "文新派出所", areaId: "杭州市 / 西湖区 / 西溪街道", addressDetail: "学军中学东门", deviceType: "球机", vendor: "海康", installDate: "2022-09-01", warrantyExpireDate: "2025-08-31", tagIds: "—", lngLat: "120.139000,30.280000" }, suggestions: { tagIds: { value: "学校周边,校园周边", source: "同目录众数", sample: 5 }, lngLat: { value: "120.140200,30.281300", source: "坐标反查", sample: 1 } } },
-      { id: 4, name: "浙一医院门诊", deviceId: "33010600001320000041", channelId: "33010600001320000051", filled: 10, total: 10, status: "2", rejected: 0, comments: "", locked: [], rejectedKeys: [], dir: "bs", missing: { standardName: false, unitId: false, areaId: false, addressDetail: false, deviceType: false, vendor: false, installDate: false, warrantyExpireDate: false, tagIds: false, lngLat: false }, values: { standardName: "浙一医院门诊", unitId: "北山派出所", areaId: "杭州市 / 西湖区 / 北山街道", addressDetail: "庆春路 79 号", deviceType: "枪机", vendor: "宇视", installDate: "2021-05-18", warrantyExpireDate: "2024-05-17", tagIds: "医院周边", lng: "120.181200", lat: "30.259800" }, currents: { standardName: "浙一医院门诊", unitId: "—", areaId: "杭州市 / 西湖区", addressDetail: "—", deviceType: "枪机", vendor: "—", installDate: "—", warrantyExpireDate: "—", tagIds: "—", lngLat: "—" } },
-      { id: 5, name: "仓前街道球机", deviceId: "33011000001320000004", channelId: "33011000001320000014", filled: 10, total: 10, status: "4", rejected: 0, comments: "", locked: [], rejectedKeys: [], dir: "yh", missing: { standardName: false, unitId: false, areaId: false, addressDetail: false, deviceType: false, vendor: false, installDate: false, warrantyExpireDate: false, tagIds: false, lngLat: false }, values: { standardName: "仓前街道球机", unitId: "仓前派出所", areaId: "杭州市 / 余杭区 / 仓前街道", addressDetail: "仓前大街", deviceType: "球机", vendor: "海康", installDate: "2020-01-08", warrantyExpireDate: "2023-01-07", tagIds: "医院周边", lng: "120.001200", lat: "30.291000" }, currents: { standardName: "仓前街道球机", unitId: "仓前派出所", areaId: "杭州市 / 余杭区 / 仓前街道", addressDetail: "仓前大街", deviceType: "球机", vendor: "海康", installDate: "2020-01-08", warrantyExpireDate: "2023-01-07", tagIds: "医院周边", lngLat: "120.001200,30.291000" } }
+      { id: 1, name: "西湖小区东门监控", deviceId: "33010600001320000001", channelId: "33010600001320000011", filled: 4, total: 10, status: "0", rejected: 0, comments: "", locked: [], rejectedKeys: [], dir: "xx", missing: { standardName: false, unitId: false, areaId: false, addressDetail: false, deviceType: false, vendor: true, installDate: true, warrantyExpireDate: true, tagIds: false, lngLat: true }, values: { standardName: "西湖小区东门监控", unitId: "文新派出所", areaId: "浙江省 / 杭州市 / 西湖区 / 西溪街道", addressDetail: "文三路 100 号", deviceType: "枪机", vendor: "海康", installDate: "2024-03-12", warrantyExpireDate: "2027-03-11", tagIds: "学校周边", lng: "", lat: "", lngNa: "车载或移动点位" }, currents: { standardName: "西湖小区东门监控", unitId: "—", areaId: "浙江省 / 杭州市 / 西湖区", addressDetail: "—", deviceType: "枪机", vendor: "—", installDate: "—", warrantyExpireDate: "—", tagIds: "—", lngLat: "120.130000,30.280000" }, suggestions: { vendor: { value: "海康", source: "同目录众数", sample: 12 }, installDate: { value: "2023-06-01", source: "同目录众数", sample: 8 }, warrantyExpireDate: { value: "2026-05-31", source: "同目录推算", sample: 6 }, lngLat: { value: "120.131500,30.280200", source: "坐标反查", sample: 1 } } },
+      { id: 2, name: "文三路交叉口北向", deviceId: "33010600001320000002", channelId: "33010600001320000012", filled: 6, total: 10, status: "1", rejected: 0, comments: "", locked: [], rejectedKeys: [], dir: "xx", missing: { standardName: false, unitId: false, areaId: false, addressDetail: false, deviceType: false, vendor: false, installDate: true, warrantyExpireDate: true, tagIds: false, lngLat: false }, values: { standardName: "文三路交叉口北向", unitId: "文新派出所", areaId: "浙江省 / 杭州市 / 西湖区 / 西溪街道", addressDetail: "文三路与学院路交叉口", deviceType: "枪机", vendor: "大华", installDate: "2023-11-02", warrantyExpireDate: "2026-11-01", tagIds: "交叉口", lng: "120.128800", lat: "30.279400" }, currents: { standardName: "文三路交叉口北向", unitId: "—", areaId: "浙江省 / 杭州市 / 西湖区", addressDetail: "—", deviceType: "枪机", vendor: "—", installDate: "—", warrantyExpireDate: "—", tagIds: "—", lngLat: "—" }, suggestions: { installDate: { value: "2023-08-15", source: "同目录众数", sample: 10 }, warrantyExpireDate: { value: "2026-08-14", source: "同目录推算", sample: 7 } } },
+      { id: 3, name: "学校门口球机", deviceId: "33010600001320000021", channelId: "33010600001320000031", filled: 8, total: 10, status: "3", rejected: 2, comments: "经纬度与现场不符，业务标签未覆盖学校门口。", locked: ["unitId"], rejectedKeys: ["lngLat", "tagIds"], dir: "xx", missing: { standardName: false, unitId: false, areaId: false, addressDetail: false, deviceType: false, vendor: false, installDate: false, warrantyExpireDate: false, tagIds: true, lngLat: true }, values: { standardName: "学校门口球机", unitId: "文新派出所", areaId: "浙江省 / 杭州市 / 西湖区 / 西溪街道", addressDetail: "学军中学东门", deviceType: "球机", vendor: "海康", installDate: "2022-09-01", warrantyExpireDate: "2025-08-31", tagIds: "学校周边", lng: "120.140100", lat: "30.281200" }, currents: { standardName: "学校门口球机", unitId: "文新派出所", areaId: "浙江省 / 杭州市 / 西湖区 / 西溪街道", addressDetail: "学军中学东门", deviceType: "球机", vendor: "海康", installDate: "2022-09-01", warrantyExpireDate: "2025-08-31", tagIds: "—", lngLat: "120.139000,30.280000" }, suggestions: { tagIds: { value: "学校周边,校园周边", source: "同目录众数", sample: 5 }, lngLat: { value: "120.140200,30.281300", source: "坐标反查", sample: 1 } } },
+      { id: 4, name: "浙一医院门诊", deviceId: "33010600001320000041", channelId: "33010600001320000051", filled: 10, total: 10, status: "2", rejected: 0, comments: "", locked: [], rejectedKeys: [], dir: "bs", missing: { standardName: false, unitId: false, areaId: false, addressDetail: false, deviceType: false, vendor: false, installDate: false, warrantyExpireDate: false, tagIds: false, lngLat: false }, values: { standardName: "浙一医院门诊", unitId: "北山派出所", areaId: "浙江省 / 杭州市 / 西湖区 / 北山街道", addressDetail: "庆春路 79 号", deviceType: "枪机", vendor: "宇视", installDate: "2021-05-18", warrantyExpireDate: "2024-05-17", tagIds: "医院周边", lng: "120.181200", lat: "30.259800" }, currents: { standardName: "浙一医院门诊", unitId: "—", areaId: "浙江省 / 杭州市 / 西湖区", addressDetail: "—", deviceType: "枪机", vendor: "—", installDate: "—", warrantyExpireDate: "—", tagIds: "—", lngLat: "—" } },
+      { id: 5, name: "仓前街道球机", deviceId: "33011000001320000004", channelId: "33011000001320000014", filled: 10, total: 10, status: "4", rejected: 0, comments: "", locked: [], rejectedKeys: [], dir: "yh", missing: { standardName: false, unitId: false, areaId: false, addressDetail: false, deviceType: false, vendor: false, installDate: false, warrantyExpireDate: false, tagIds: false, lngLat: false }, values: { standardName: "仓前街道球机", unitId: "仓前派出所", areaId: "浙江省 / 杭州市 / 余杭区 / 仓前街道", addressDetail: "仓前大街", deviceType: "球机", vendor: "海康", installDate: "2020-01-08", warrantyExpireDate: "2023-01-07", tagIds: "医院周边", lng: "120.001200", lat: "30.291000" }, currents: { standardName: "仓前街道球机", unitId: "仓前派出所", areaId: "浙江省 / 杭州市 / 余杭区 / 仓前街道", addressDetail: "仓前大街", deviceType: "球机", vendor: "海康", installDate: "2020-01-08", warrantyExpireDate: "2023-01-07", tagIds: "医院周边", lngLat: "120.001200,30.291000" } }
     ])
     // —— 大数据量 mock：6 个原始目录，共补 55 台，合计 60 台 ——
     const govExtraDirs = [
-      { dir: "xx", label: "西溪街道", unit: "文新派出所", area: "杭州市 / 西湖区 / 西溪街道", place: "文三路", n: 9 },
-      { dir: "bs", label: "北山街道", unit: "北山派出所", area: "杭州市 / 西湖区 / 北山街道", place: "保俶路", n: 9 },
-      { dir: "lx", label: "留下街道", unit: "留下派出所", area: "杭州市 / 西湖区 / 留下街道", place: "留下大街", n: 8 },
-      { dir: "gd", label: "古荡街道", unit: "古荡派出所", area: "杭州市 / 西湖区 / 古荡街道", place: "古荡巷", n: 10 },
-      { dir: "yh", label: "余杭区", unit: "仓前派出所", area: "杭州市 / 余杭区 / 仓前街道", place: "文一西路", n: 9 },
-      { dir: "gs", label: "拱墅区", unit: "拱宸桥派出所", area: "杭州市 / 拱墅区 / 拱宸桥街道", place: "上塘路", n: 10 }
+      { dir: "xx", label: "西溪街道", unit: "文新派出所", area: "浙江省 / 杭州市 / 西湖区 / 西溪街道", place: "文三路", n: 9 },
+      { dir: "bs", label: "北山街道", unit: "北山派出所", area: "浙江省 / 杭州市 / 西湖区 / 北山街道", place: "保俶路", n: 9 },
+      { dir: "lx", label: "留下街道", unit: "留下派出所", area: "浙江省 / 杭州市 / 西湖区 / 留下街道", place: "留下大街", n: 8 },
+      { dir: "gd", label: "古荡街道", unit: "古荡派出所", area: "浙江省 / 杭州市 / 西湖区 / 古荡街道", place: "古荡巷", n: 10 },
+      { dir: "yh", label: "余杭区", unit: "仓前派出所", area: "浙江省 / 杭州市 / 余杭区 / 仓前街道", place: "文一西路", n: 9 },
+      { dir: "gs", label: "拱墅区", unit: "拱宸桥派出所", area: "浙江省 / 杭州市 / 拱墅区 / 拱宸桥街道", place: "上塘路", n: 10 }
     ]
     const govKeys = ["standardName", "unitId", "areaId", "addressDetail", "deviceType", "vendor", "installDate", "warrantyExpireDate", "tagIds", "lngLat"]
     let govAutoId = 100
@@ -1362,11 +1434,15 @@ createApp({
       if (govScope.value === "original") return dirLabel(key)
       return key
     }
-    const govQuery = reactive({ name: "", deviceId: "", channelId: "", status: "" })
-    const govApplied = reactive({ name: "", deviceId: "", channelId: "", status: "" })
+    const govQuery = reactive({ name: "", deviceId: "", channelId: "", status: "", platform: [] })
+    const govApplied = reactive({ name: "", deviceId: "", channelId: "", status: "", platform: [] })
     const govChecked = ref([])
     const govGapFilter = ref("")
-    const govViewMode = ref("device")
+    function govPlatformOf(row) {
+      if (row.platform) return row.platform
+      return row.dir === "yh" ? "余杭区级平台" : row.dir === "bs" ? "市直平台" : "西湖区级平台"
+    }
+    const govPlatformOptions = computed(() => Array.from(new Set(govDevices.map(govPlatformOf))))
     const govGapBoard = computed(() => {
       const map = { standardName: "设备规范名称", unitId: "管理单位", areaId: "行政区划", addressDetail: "详细地址", deviceType: "设备类型", vendor: "设备厂商", installDate: "安装日期", warrantyExpireDate: "维保到期日", tagIds: "业务标签", lngLat: "经纬度" }
       const rows = govDevices.filter(r => r.status === "0" || r.status === "1" || r.status === "3")
@@ -1384,6 +1460,7 @@ createApp({
       if (govApplied.deviceId && row.deviceId.indexOf(govApplied.deviceId) < 0) return false
       if (govApplied.channelId && row.channelId.indexOf(govApplied.channelId) < 0) return false
       if (govApplied.status && row.status !== govApplied.status) return false
+      if (govApplied.platform && govApplied.platform.length && govApplied.platform.indexOf(govPlatformOf(row)) < 0) return false
       if (govGapFilter.value && row.missing && !row.missing[govGapFilter.value]) return false
       return true
     }))
@@ -1396,32 +1473,7 @@ createApp({
     function govPageChange(p) { govPage.value = p }
     function govSizeChange(s) { govPageSize.value = s; govPage.value = 1 }
     watch(govView, function () { govPage.value = 1 })
-    watch(govViewMode, function () { govChecked.value = [] })
     watch(govScope, function () { govChecked.value = [] })
-    const govClusters = computed(() => {
-      const rows = govView.value
-      const map = {}
-      rows.forEach(row => {
-        const key = govScope.value === "original"
-          ? (row.dir || "未知")
-          : (govScope.value === "base" ? (row.baseDir || "未上架") : (row.bizDir || "未上架"))
-        if (!map[key]) map[key] = { dir: key, label: scopeLabel(key), devices: [], pending: 0, saved: 0, rejected: 0, gaps: {} }
-        map[key].devices.push(row)
-        if (row.status === "0") map[key].pending++
-        if (row.status === "1") map[key].saved++
-        if (row.status === "3") map[key].rejected++
-        Object.keys(row.missing || {}).forEach(k => {
-          if (k === "standardName" && (mode.value !== "three" || govScope.value === "original")) return
-          if (row.missing[k]) map[key].gaps[k] = (map[key].gaps[k] || 0) + 1
-        })
-      })
-      return Object.values(map).map(function (c) {
-        c.gapList = Object.keys(c.gaps).map(function (k) {
-          return { key: k, label: govFieldLabels[k] || k, count: c.gaps[k] }
-        }).sort(function (a, b) { return b.count - a.count })
-        return c
-      }).sort((a, b) => b.devices.length - a.devices.length)
-    })
     const govFieldLabels = {
       standardName: "规范名称", unitId: "管理单位", areaId: "行政区划", addressDetail: "详细地址",
       deviceType: "设备类型", vendor: "设备厂商", installDate: "安装日期", warrantyExpireDate: "维保到期",
@@ -1448,6 +1500,7 @@ createApp({
       govApplied.deviceId = (govQuery.deviceId || "").trim()
       govApplied.channelId = (govQuery.channelId || "").trim()
       govApplied.status = govQuery.status
+      govApplied.platform = (govQuery.platform || []).slice()
       govQuery.name = govApplied.name
       govQuery.deviceId = govApplied.deviceId
       govQuery.channelId = govApplied.channelId
@@ -1458,6 +1511,8 @@ createApp({
       govQuery.deviceId = ""
       govQuery.channelId = ""
       govQuery.status = ""
+      govQuery.platform = []
+      govApplied.platform = []
       govGapFilter.value = ""
       govSearch()
     }
@@ -1584,11 +1639,6 @@ createApp({
       wbPrev.value = null
       wbCurrent.value = row
       wbFill(row)
-    }
-    function openClusterGovern(c) {
-      openWb(c.devices[0])
-      wbScope.value = c.dir
-      wbScopeLabel.value = c.label
     }
     function clearWbScope() {
       wbScope.value = ""
@@ -2130,24 +2180,24 @@ createApp({
     }
     const audDevices = reactive([
       { id: 11, name: "浙一医院门诊", deviceId: "33010600001320000041", channelId: "33010600001320000051", passed: 0, total: 10, status: "2", resubmit: false, comments: "", rejected: 0, fields: audPack(
-        { standardName: "浙一医院门诊", unitId: "北山派出所", areaId: "杭州市 / 西湖区 / 北山街道", addressDetail: "庆春路 79 号", deviceType: "枪机", vendor: "宇视", installDate: "2021-05-18", warrantyExpireDate: "2024-05-17", tagIds: "医院周边", lngLat: "120.181200,30.259800" },
-        { standardName: "浙一医院门诊", unitId: "—", areaId: "杭州市 / 西湖区", addressDetail: "—", deviceType: "枪机", vendor: "—", installDate: "—", warrantyExpireDate: "—", tagIds: "—", lngLat: "—" },
+        { standardName: "浙一医院门诊", unitId: "北山派出所", areaId: "浙江省 / 杭州市 / 西湖区 / 北山街道", addressDetail: "庆春路 79 号", deviceType: "枪机", vendor: "宇视", installDate: "2021-05-18", warrantyExpireDate: "2024-05-17", tagIds: "医院周边", lngLat: "120.181200,30.259800" },
+        { standardName: "浙一医院门诊", unitId: "—", areaId: "浙江省 / 杭州市 / 西湖区", addressDetail: "—", deviceType: "枪机", vendor: "—", installDate: "—", warrantyExpireDate: "—", tagIds: "—", lngLat: "—" },
         [], []) },
       { id: 12, name: "学校门口球机", deviceId: "33010600001320000021", channelId: "33010600001320000031", passed: 8, total: 10, status: "2", resubmit: true, comments: "", rejected: 0, fields: audPack(
-        { standardName: "学校门口球机", unitId: "文新派出所", areaId: "杭州市 / 西湖区 / 西溪街道", addressDetail: "学军中学东门", deviceType: "球机", vendor: "海康", installDate: "2022-09-01", warrantyExpireDate: "2025-08-31", tagIds: "学校周边", lngLat: "120.140100,30.281200" },
-        { standardName: "学校门口球机", unitId: "文新派出所", areaId: "杭州市 / 西湖区 / 西溪街道", addressDetail: "学军中学东门", deviceType: "球机", vendor: "海康", installDate: "2022-09-01", warrantyExpireDate: "2025-08-31", tagIds: "—", lngLat: "120.139000,30.280000" },
+        { standardName: "学校门口球机", unitId: "文新派出所", areaId: "浙江省 / 杭州市 / 西湖区 / 西溪街道", addressDetail: "学军中学东门", deviceType: "球机", vendor: "海康", installDate: "2022-09-01", warrantyExpireDate: "2025-08-31", tagIds: "学校周边", lngLat: "120.140100,30.281200" },
+        { standardName: "学校门口球机", unitId: "文新派出所", areaId: "浙江省 / 杭州市 / 西湖区 / 西溪街道", addressDetail: "学军中学东门", deviceType: "球机", vendor: "海康", installDate: "2022-09-01", warrantyExpireDate: "2025-08-31", tagIds: "—", lngLat: "120.139000,30.280000" },
         ["standardName", "unitId", "areaId", "addressDetail", "deviceType", "vendor", "installDate", "warrantyExpireDate"], []) },
       { id: 13, name: "文三路交叉口北向", deviceId: "33010600001320000002", channelId: "33010600001320000012", passed: 6, total: 10, status: "3", resubmit: false, comments: "经纬度偏差过大，标签未覆盖交叉口。", rejected: 2, fields: audPack(
-        { standardName: "文三路交叉口北向", unitId: "文新派出所", areaId: "杭州市 / 西湖区 / 西溪街道", addressDetail: "文三路与学院路交叉口", deviceType: "枪机", vendor: "大华", installDate: "2023-11-02", warrantyExpireDate: "2026-11-01", tagIds: "交叉口", lngLat: "120.128800,30.279400" },
-        { standardName: "文三路交叉口北向", unitId: "—", areaId: "杭州市 / 西湖区", addressDetail: "—", deviceType: "枪机", vendor: "—", installDate: "—", warrantyExpireDate: "—", tagIds: "—", lngLat: "—" },
+        { standardName: "文三路交叉口北向", unitId: "文新派出所", areaId: "浙江省 / 杭州市 / 西湖区 / 西溪街道", addressDetail: "文三路与学院路交叉口", deviceType: "枪机", vendor: "大华", installDate: "2023-11-02", warrantyExpireDate: "2026-11-01", tagIds: "交叉口", lngLat: "120.128800,30.279400" },
+        { standardName: "文三路交叉口北向", unitId: "—", areaId: "浙江省 / 杭州市 / 西湖区", addressDetail: "—", deviceType: "枪机", vendor: "—", installDate: "—", warrantyExpireDate: "—", tagIds: "—", lngLat: "—" },
         ["standardName", "unitId", "areaId", "addressDetail", "deviceType", "vendor", "installDate", "warrantyExpireDate"], ["tagIds", "lngLat"]) },
       { id: 14, name: "仓前街道球机", deviceId: "33011000001320000004", channelId: "33011000001320000014", passed: 10, total: 10, status: "4", resubmit: false, comments: "", rejected: 0, fields: audPack(
-        { standardName: "仓前街道球机", unitId: "仓前派出所", areaId: "杭州市 / 余杭区 / 仓前街道", addressDetail: "仓前大街", deviceType: "球机", vendor: "海康", installDate: "2020-01-08", warrantyExpireDate: "2023-01-07", tagIds: "医院周边", lngLat: "120.001200,30.291000" },
-        { standardName: "仓前街道球机", unitId: "仓前派出所", areaId: "杭州市 / 余杭区 / 仓前街道", addressDetail: "仓前大街", deviceType: "球机", vendor: "海康", installDate: "2020-01-08", warrantyExpireDate: "2023-01-07", tagIds: "医院周边", lngLat: "120.001200,30.291000" },
+        { standardName: "仓前街道球机", unitId: "仓前派出所", areaId: "浙江省 / 杭州市 / 余杭区 / 仓前街道", addressDetail: "仓前大街", deviceType: "球机", vendor: "海康", installDate: "2020-01-08", warrantyExpireDate: "2023-01-07", tagIds: "医院周边", lngLat: "120.001200,30.291000" },
+        { standardName: "仓前街道球机", unitId: "仓前派出所", areaId: "浙江省 / 杭州市 / 余杭区 / 仓前街道", addressDetail: "仓前大街", deviceType: "球机", vendor: "海康", installDate: "2020-01-08", warrantyExpireDate: "2023-01-07", tagIds: "医院周边", lngLat: "120.001200,30.291000" },
         ["standardName", "unitId", "areaId", "addressDetail", "deviceType", "vendor", "installDate", "warrantyExpireDate", "tagIds", "lngLat"], []) },
       { id: 15, name: "西湖小区东门监控", deviceId: "33010600001320000001", channelId: "33010600001320000011", passed: 0, total: 10, status: "2", resubmit: false, comments: "", rejected: 0, fields: audPack(
-        { standardName: "学校门口球机", unitId: "文新派出所", areaId: "杭州市 / 西湖区 / 西溪街道", addressDetail: "文三路 100 号", deviceType: "枪机", vendor: "海康", installDate: "2024-03-12", warrantyExpireDate: "2027-03-11", tagIds: "学校周边", lngLat: "120.140100,30.281200" },
-        { standardName: "西湖小区东门监控", unitId: "—", areaId: "杭州市 / 西湖区", addressDetail: "—", deviceType: "枪机", vendor: "—", installDate: "—", warrantyExpireDate: "—", tagIds: "—", lngLat: "—" },
+        { standardName: "学校门口球机", unitId: "文新派出所", areaId: "浙江省 / 杭州市 / 西湖区 / 西溪街道", addressDetail: "文三路 100 号", deviceType: "枪机", vendor: "海康", installDate: "2024-03-12", warrantyExpireDate: "2027-03-11", tagIds: "学校周边", lngLat: "120.140100,30.281200" },
+        { standardName: "西湖小区东门监控", unitId: "—", areaId: "浙江省 / 杭州市 / 西湖区", addressDetail: "—", deviceType: "枪机", vendor: "—", installDate: "—", warrantyExpireDate: "—", tagIds: "—", lngLat: "—" },
         [], []) }
     ])
     audDevices.forEach(function (row) {
@@ -2659,6 +2709,31 @@ createApp({
     })
     const dashCatAll = computed(() => catalog.value === "business" ? (dashBizById[bizId.value] || dashBizById.school) : catalog.value === "base" ? dashBaseNodes : dashAreaNodes)
     const dashCatRows = computed(() => dashCatMore.value ? dashCatAll.value : dashCatAll.value.slice(0, 10))
+    function exportRank(kind) {
+      const fields = dashFields.value
+      const rows = kind === "unit" ? dashRankRows.value : dashCatRows.value
+      const name = kind === "unit" ? "单位治理排行" : "目录治理排行"
+      const head = ["排名", kind === "unit" ? "单位名称" : "节点名称", "设备数", "已完成", "完成率"].concat(fields.map(f => f.name))
+      const esc = function (v) { return String(v == null ? "" : v).replace(/&/g, "&amp;").replace(/</g, "&lt;") }
+      const body = rows.map(function (row, i) {
+        const base = [row.fixed ? "—" : String(i + 1), row.n, row.c, row.d, row.r.toFixed(1) + "%"]
+        return base.concat(fields.map(f => row.rates[f.key].toFixed(1) + "%"))
+      })
+      const table = '<table border="1"><tr>' + head.map(h => "<th>" + esc(h) + "</th>").join("") + "</tr>" +
+        body.map(r => "<tr>" + r.map(c => "<td>" + esc(c) + "</td>").join("") + "</tr>").join("") + "</table>"
+      const html = '<html><head><meta charset="UTF-8"></head><body>' + table + "</body></html>"
+      const blob = new Blob(["\ufeff" + html], { type: "application/vnd.ms-excel;charset=utf-8" })
+      const a = document.createElement("a")
+      a.href = URL.createObjectURL(blob)
+      const d = new Date()
+      const date = d.getFullYear() + ("0" + (d.getMonth() + 1)).slice(-2) + ("0" + d.getDate()).slice(-2)
+      a.download = name + "_" + date + ".xls"
+      document.body.appendChild(a)
+      a.click()
+      document.body.removeChild(a)
+      URL.revokeObjectURL(a.href)
+      ElMessage.success("已导出「" + name + "」全部 " + rows.length + " 行")
+    }
     const dashAdds = computed(function () { return dashNow.value.adds })
     const dashTrend = computed(function () {
       const set = dashNow.value
@@ -2855,7 +2930,8 @@ createApp({
       { id: "b", node: "xx", shelf: true, bizIds: [], q: "todo", name: "文三路交叉口北向", online: true, gov: "待治理", code: "33010600001320000021", type: "枪机", org: "文新派出所", platform: "市局平台", lnglat: "—", raw: "120.168000, 30.292000", areaCenter: "120.148000, 30.268000" },
       { id: "c", node: "bs", shelf: true, bizIds: [], q: "todo", name: "市府大楼球机", online: false, gov: "待治理", code: "33010600001320000015", type: "球机", org: "北山派出所", platform: "市局平台", lnglat: "—", raw: "", areaCenter: "120.155000, 30.258000" },
       { id: "d", node: "xx", shelf: true, bizIds: ["school", "hospital"], q: "done", name: "学校门口球机", online: true, gov: "已有坐标", code: "33010600001320000031", type: "球机", org: "文新派出所", platform: "市局平台", lnglat: "120.131200, 30.280100", raw: "120.129000, 30.279000", areaCenter: "120.148000, 30.268000" },
-      { id: "e", node: "xx", shelf: true, bizIds: [], q: "na", name: "移动执法车", online: false, gov: "不适用", code: "33010600001320000040", type: "枪机", org: "文新派出所", platform: "市局平台", lnglat: "—", raw: "", areaCenter: "" },
+      { id: "e", node: "xx", shelf: true, bizIds: [], q: "na", name: "移动执法车", online: false, gov: "不适用", code: "33010600001320000040", type: "枪机", org: "文新派出所", platform: "市局平台", lnglat: "—", raw: "", areaCenter: "", naReason: "车载或移动点位", naBy: "王网格", naTime: "2026-11-08 14:22" },
+      { id: "h", node: "bs", shelf: true, bizIds: [], q: "na", name: "消防巡查电瓶车监控", online: false, gov: "不适用", code: "33010600001320000057", type: "枪机", org: "北山派出所", platform: "市局平台", lnglat: "—", raw: "", areaCenter: "", naReason: "设备长期离线", naBy: "李治理", naTime: "2026-11-09 09:05" },
       { id: "f", node: "yh", shelf: true, bizIds: ["road"], q: "todo", name: "仓前街道口", online: true, gov: "待治理", code: "33011000001320000018", type: "枪机", org: "仓前派出所", platform: "市局平台", lnglat: "—", raw: "119.990000, 30.305000", areaCenter: "120.005000, 30.295000" },
       { id: "g", node: "yh", shelf: false, bizIds: [], q: "todo", name: "余杭未上架枪机", online: true, gov: "待治理", code: "33011000001320000019", type: "枪机", org: "余杭分局", platform: "市局平台", lnglat: "—", raw: "", areaCenter: "120.005000, 30.295000" }
     ])
@@ -2888,6 +2964,11 @@ createApp({
           { id: "yh", label: "余杭区", code: "330110", deep: 2, children: [
             { id: "cq", label: "仓前街道", code: "330110005", deep: 3 }
           ]}
+        ]}
+      ]},
+      { id: "js", label: "江苏省", code: "32", deep: 0, children: [
+        { id: "szc", label: "苏州市", code: "3205", deep: 1, children: [
+          { id: "wj", label: "吴江区", code: "320509", deep: 2 }
         ]}
       ]}
     ]
@@ -3440,13 +3521,17 @@ createApp({
       batchStep.value = 2
     }
     function runBatch() {
-      const skipValue = batchField.value === "name" || (batchField.value === "unit" && batchAction.value === "unbind")
+      const skipValue = batchField.value === "name" || (batchField.value === "unit" && batchAction.value === "unbind") || (batchField.value === "coord" && batchAction.value === "unbind")
       const empty = Array.isArray(batchValue.value) ? !batchValue.value.length : !batchValue.value
       if (!skipValue && empty) {
         ElMessage.warning("请填写新值")
         return
       }
       batchOpen.value = false
+      if (batchField.value === "coord") {
+        ElMessage.success(batchAction.value === "bind" ? "已标记不适用 " + batchCount.value + " 台，按已治理口径统计" : "已取消 " + batchCount.value + " 台不适用标记，回到待治理队列")
+        return
+      }
       ElMessage.success("已写入 " + batchCount.value + " 台，治理状态已按清单重算")
     }
     function saveDetail() {
@@ -3482,9 +3567,9 @@ createApp({
       geoWarn.value = true
     }
     function fillArea() {
-      areaPath.value = ["杭州市", "余杭区"]
+      areaPath.value = ["浙江省", "杭州市", "余杭区"]
       geoWarn.value = false
-      ElMessage.success("已按坐标建议填入浙江省 / 杭州市 / 余杭区，尚未保存")
+      ElMessage.success("已按坐标建议填入 浙江省 / 杭州市 / 余杭区，尚未保存")
     }
     const thumbFiles = ref([])
     function onThumbChange(file, list) {
@@ -3496,7 +3581,7 @@ createApp({
     function onAreaChange() {
       const path = areaPath.value || []
       const node = path.length ? path[path.length - 1] : ""
-      geoWarn.value = node === "余杭区" || node === "仓前街道"
+      geoWarn.value = node === "余杭区" || node === "仓前街道" || node === "吴江区"
     }
     const zoomLevels = reactive({ prov: "", city: "", county: "", town: "" })
     function applyLevelZoom() {
@@ -3610,12 +3695,12 @@ createApp({
       page, top, mode, catalog, catalogKey, bizId, bizCatalogs, currentBiz, currentScopeTitle, currentNameRule, stat, keyword, nodeId, onlyLevel, onOnlyLevel, rows, listTotal, tree, treeKey, treeOpen, toggleTree, onTreeClick, nodeCount, switchCatalog, resetList,
       batchOpen, batchStep, batchScope, batchField, batchAction, batchValue, skipProtected, batchCount, batchNames, lockedChecked, lockedFilter, previewBatch,
       filterKeys, colKeys, showFilter, showCol, resetListConfig, colOpen, nameOpen, checked,
-      showName, dashMore, dashCatMore, dashDims, dashFields, dashRankRows, dashCatAll, dashCatRows, dashAdds, dashNow, dashTrend, dashLine, dashArea, openDash, listOnline, listGov, canSync, lng, lat, geoWarn, gName, gType, unitId, unitTree, tagIds, tagTree, areaPath, areaOptions, areaProps, thumbFiles, onThumbChange, onThumbRemove, tagType, go, setMode, openBatch, runBatch, resetName, resetCoord, resetType,
+      showName, dashMore, dashCatMore, exportRank, dashDims, dashFields, dashRankRows, dashCatAll, dashCatRows, dashAdds, dashNow, dashTrend, dashLine, dashArea, openDash, listOnline, listGov, canSync, lng, lat, geoWarn, gName, gType, unitId, unitTree, tagIds, tagTree, areaPath, areaOptions, areaProps, thumbFiles, onThumbChange, onThumbRemove, tagType, go, setMode, openBatch, runBatch, resetName, resetCoord, resetType,
       openNaming, catalogRules, globalNameRule, activeNameRule, ruleScopeOptions, rulePreview, nameTokens, openRule, insertToken, saveRule, deleteRule, previewDeviceName,
       ruleEditOpen, ruleMode, ruleForm, ruleDialogTitle,
       saveDetail, onMap, fillArea, onAreaChange, coordIdx, coordLng, coordLat, coordKw, coordTree, coordNodeId, pickCoordNode, coordTodoNum, visibleQueue, currentCoord, queue, pickMode,
       areaAdminTree, areaSel, areaTab, areaSelNode, pickArea,
-      saveCoord, skipCoord, pickQueue, reusePrevCoord, pickOnMap, onCoordType, coordPin, coordViewHint, coordCanReuse, naOpen, naReason, aiTab, aiOpen, aiMode, aiRow, aiTagNodes, aiTagChecked, aiTagExpanded, aiTagKw, aiTagFilterIds, aiTagTreeRef, aiTagFilter, filterAiTree, aiTable, aiCounts, aiRows, aiCanSelect, aiSelectedCount, aiScopeText, aiTodoCount, onAiTab, onAiSelect, aiPickPage, aiPickAll, startAi, runAiBatch, openAi, submitAi, aiStType, catMode, catName, trunk,
+      saveCoord, skipCoord, pickQueue, reusePrevCoord, pickOnMap, onCoordType, coordPin, coordViewHint, coordCanReuse, naOpen, naReason, naSource, naChecked, confirmNa, cancelNa, cancelNaBatch, detailNa, wbNaMarked, aiTab, aiOpen, aiMode, aiRow, aiTagNodes, aiTagChecked, aiTagExpanded, aiTagKw, aiTagFilterIds, aiTagTreeRef, aiTagFilter, filterAiTree, aiTable, aiCounts, aiRows, aiCanSelect, aiSelectedCount, aiScopeText, aiTodoCount, onAiTab, onAiSelect, aiPickPage, aiPickAll, startAi, runAiBatch, openAi, submitAi, aiStType, catMode, catName, trunk,
       previewText, editing, changeOpen, assignOpen, assigned, catStatus, doGenerate, confirmAssign,
       confirmChange, oneOpen, oneField, fillOpen, exportOpen, importOpen, imported, bindOpen,
       prefillOpen, zoomOpen, zoomLevels, applyLevelZoom, queueCount, unbindOpen, advancedOpen, syncOpen, syncLogOpen,
@@ -3624,7 +3709,7 @@ createApp({
       memberOpen, governItems, offerItems, activeGovTask, activeItemNames, openGovern, deviceDisplayName, auditDisplayName, govProgress, openTaskPrefill, saveTaskPrefill, prefillTask, prefillSummary, prefillCoverLines, dispatchDeleted, dispatchDeletedText, openCatalog, ElMessage, ElMessageBox, workRows,
       dcOpen, dcDirExpand, dcTask, dcDir, dcDirLabel, dcChecked, dcTree, dcUnitTree, dcTagTree, dcFilters, dcView, dcCondView, dcBindTab, dcTableView, dcPage, dcPageSize, dcPageView, dcTableRef, dcPageChange, dcSizeChange, dcBindTabChange, scopeDirTree, openDeviceConfig, dcSelect, dcPickDir, dcSearch, dcReset, dcMissingLabels, dcToggle, dcBatch,
       memberTab, memberView, memberKw, memberPick, memberUserView, memberGovernCount, memberAuditCount, openMemberAdd, memberSearch, memberReset, memberAdd, memberRemove, memberSelectable,
-      govStatusText, govStatusType, govQuery, govView, govChecked, govStats, govSearch, govReset, govSelectable, govPercent, govGapBoard, govGapFilter, govViewMode, govClusters, dirLabel, govScope, scopeLabel, openClusterGovern, wbScope, wbScopeLabel, clearWbScope, govPage, govPageSize, govPagedView, govPageChange, govSizeChange,
+      govStatusText, govStatusType, govQuery, govView, govChecked, govStats, govSearch, govReset, govSelectable, govPercent, govGapBoard, govGapFilter, govPlatformOf, govPlatformOptions, dirLabel, govScope, scopeLabel, wbScope, wbScopeLabel, clearWbScope, govPage, govPageSize, govPagedView, govPageChange, govSizeChange,
       wbOpen, wbCurrent, wbQuery, wbView, wbPagedView, wbPage, wbPageSize, wbPageChange, wbForm, wbFieldDefs, wbFields, wbTip, wbSelect, openWb, wbSearch, wbReset, wbRowClass, wbMark, wbNameInput, wbSave, wbSubmit, wbNext, taskNameRule, nameRuleOf, catalogName, applyTaskName, reuseWbPrev, wbCanReuse, wbPin, wbCoordHint,
       govBatchOpen, govBatchTouched, govBatchStep, govBatchName, govNamePlan, openGovBatch, submitGovBatch, govDetailOpen, govDetailRow, openGovDetail, currentOf, applySuggest,
       oneStep, oneValue, onePlan, oneItemOptions, oneWriteOptions, openOneField, submitOneField, oneTargets,
@@ -3808,6 +3893,7 @@ createApp({
           <div class="dash-hd">
             <h3>单位治理排行</h3>
             <span class="spacer"></span>
+            <el-button link type="primary" @click="exportRank('unit')">导出 Excel</el-button>
             <el-button link type="primary" @click="dashMore=!dashMore">{{ dashMore ? '收起' : '查看全部' }}</el-button>
           </div>
           <div class="hint" style="margin-bottom:8px">按完成率从低到高。未绑定单位不参与排名，固定在末尾。右侧是各考核字段达标率。</div>
@@ -3826,6 +3912,7 @@ createApp({
           <div class="dash-hd">
             <h3>目录治理排行</h3>
             <span class="spacer"></span>
+            <el-button link type="primary" @click="exportRank('catalog')">导出 Excel</el-button>
             <el-button v-if="dashCatAll.length > 10" link type="primary" @click="dashCatMore=!dashCatMore">{{ dashCatMore ? '收起' : '查看全部' }}</el-button>
           </div>
           <div class="hint" style="margin-bottom:8px">{{ catalog==='business' ? '「' + currentBiz.name + '」的下一级，台数含下级。' : '当前目录根节点的下一级，台数含下级。' }}按完成率从低到高。右侧是各考核字段达标率。</div>
@@ -4002,23 +4089,30 @@ createApp({
                 <div class="aa-item">
                   <span class="aa-label">行政区划</span>
                   <el-input class="root-lock" model-value="浙江省" disabled/>
-                  <el-cascader class="area-cascader" v-model="areaPath" :options="areaOptions" :props="areaProps" clearable separator=" / " placeholder="从市开始选" @change="onAreaChange"/>
+                  <el-cascader class="area-cascader" v-model="areaPath" :options="areaOptions" :props="areaProps" clearable separator=" / " placeholder="从省开始选" @change="onAreaChange"/>
                 </div>
                 <div class="aa-item is-address">
                   <span class="aa-label">详细地址</span>
                   <el-input model-value="文三路 100 号" maxlength="200" show-word-limit placeholder="最多 200 字"/>
                 </div>
               </div>
-              <div class="hint">从市开始选，可停在市或区县。改区划只移动地图。</div>
+              <div class="hint">从省开始选，可停在省/市/区县/街道；支持跨省（两省交界设备可归属邻省区划）。改区划只移动地图。</div>
               <el-form-item label="治理坐标">
                 <div class="field-line">
-                  <el-input class="coord-input" v-model="lng" placeholder="经度 73–135"/>
-                  <el-input class="coord-input" v-model="lat" placeholder="纬度 3–54"/>
-                  <el-tooltip content="清空治理经纬度，不抄原始坐标。" placement="top">
-                    <el-button link class="icon-btn" @click="resetCoord"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 1 1-2.6-6.3"/><path d="M21 3v6h-6"/></svg></el-button>
-                  </el-tooltip>
+                  <template v-if="detailNa">
+                    <el-tag type="info" closable @close="detailNa=''">不适用（{{ detailNa }}）</el-tag>
+                    <el-button link type="primary" @click="detailNa=''">取消不适用</el-button>
+                  </template>
+                  <template v-else>
+                    <el-input class="coord-input" v-model="lng" placeholder="经度 73–135"/>
+                    <el-input class="coord-input" v-model="lat" placeholder="纬度 3–54"/>
+                    <el-tooltip content="清空治理经纬度，不抄原始坐标。" placement="top">
+                      <el-button link class="icon-btn" @click="resetCoord"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 1 1-2.6-6.3"/><path d="M21 3v6h-6"/></svg></el-button>
+                    </el-tooltip>
+                    <el-button link type="primary" @click="naSource='detail'; naOpen=true">标记不适用</el-button>
+                  </template>
                 </div>
-                <div class="hint">原始坐标 120.130100，30.279200</div>
+                <div class="hint">{{ detailNa ? '按已治理口径统计；取消后经纬度重新按未达标统计。' : '原始坐标 120.130100，30.279200' }}</div>
               </el-form-item>
               <div class="loc-media">
                 <div>
@@ -4034,7 +4128,7 @@ createApp({
                 <el-button link type="primary" @click="fillArea">用坐标填区划</el-button>
                 <span v-if="!geoWarn" class="hint">点击落点预览，暂不写入坐标。</span>
               </div>
-              <el-alert v-if="geoWarn" style="margin-bottom:8px" type="warning" :closable="false" title="不在已选行政区划内，反查到余杭区。可以保存。"/>
+              <el-alert v-if="geoWarn" style="margin-bottom:8px" type="warning" :closable="false" :title="(areaPath || [])[0]==='江苏省' ? '该坐标位于省界另一侧，反查到江苏省 / 苏州市 / 吴江区。省级可编辑后允许跨省填入，可确认后保存。' : '不在已选行政区划内，反查到余杭区。可以保存。'"/>
             </el-form>
           </section>
         </div>
@@ -4071,11 +4165,15 @@ createApp({
                     <el-radio-button label="done">已有坐标 {{ queueCount('done') }}</el-radio-button>
                     <el-radio-button label="na">不适用 {{ queueCount('na') }}</el-radio-button>
                   </el-radio-group>
+                  <el-button v-if="queue==='na' && naChecked.length" size="small" type="warning" plain style="margin-left:8px" @click="cancelNaBatch">取消不适用（{{ naChecked.length }} 台）</el-button>
                 </div>
                 <div class="coord-table">
-                <el-table :data="visibleQueue" highlight-current-row height="100%" @row-click="pickQueue">
+                <el-table :data="visibleQueue" highlight-current-row height="100%" @row-click="pickQueue" @selection-change="naChecked=$event">
+                  <el-table-column v-if="queue==='na'" type="selection" width="36"/>
                   <el-table-column prop="name" label="设备名称" min-width="168"/>
                   <el-table-column label="治理状态" width="88"><template #default="{ row }"><el-tag :type="row.q==='done'?'success':row.q==='na'?'info':'warning'" size="small">{{ row.gov }}</el-tag></template></el-table-column>
+                  <el-table-column v-if="queue==='na'" prop="naReason" label="原因" width="110" show-overflow-tooltip/>
+                  <el-table-column v-if="queue==='na'" label="标记人/时间" width="130"><template #default="{ row }">{{ row.naBy }}<br/><small>{{ row.naTime }}</small></template></el-table-column>
                   <el-table-column prop="org" label="上级组织" width="108"/>
                   <el-table-column prop="lnglat" label="经纬度" width="168"/>
                 </el-table>
@@ -4090,7 +4188,7 @@ createApp({
                     <div><span>在线</span><b>{{ currentCoord.online ? '在线' : '离线' }}</b></div>
                     <div><span>设备类型</span><b>{{ currentCoord.type }}</b></div>
                     <div><span>上级组织</span><b>{{ currentCoord.org }}</b></div>
-                    <div><span>上级平台</span><b>{{ currentCoord.platform }}</b></div>
+                    <div><span>所属下级平台</span><b>{{ currentCoord.platform }}</b></div>
                     <div class="wide"><span>设备编码</span><b>{{ currentCoord.code }}</b></div>
                     <div class="wide"><span>经纬度</span><b>{{ coordLng && coordLat ? coordLng + '，' + coordLat : '—' }}</b></div>
                     <div class="wide hint">{{ coordViewHint }}</div>
@@ -4104,7 +4202,8 @@ createApp({
               <el-tooltip :disabled="coordCanReuse" content="上一台还没有已保存的坐标" placement="top">
                 <span class="op-tip"><el-button :disabled="!coordCanReuse" @click.stop="reusePrevCoord">沿用上一台</el-button></span>
               </el-tooltip>
-              <el-button @click.stop="naOpen=true">不适用</el-button>
+              <el-button v-if="queue!=='na'" @click.stop="naSource='coord'; naOpen=true">不适用</el-button>
+              <el-button v-else type="warning" plain @click.stop="cancelNa(currentCoord); queue='todo'">取消不适用</el-button>
               <el-button @click.stop="skipCoord">跳过</el-button>
               <el-button type="primary" @click.stop="saveCoord">保存该设备点位</el-button>
             </div>
@@ -4198,10 +4297,11 @@ createApp({
             </el-tree>
             <div class="area-foot">
               <el-button type="primary" style="width:100%" @click="areaCreateOpen=true">+ 新增子节点</el-button>
+              <el-button style="width:100%;margin:8px 0 0" @click="ElMessage.success('已新增省级节点（演示）')">+ 新增省级节点</el-button>
               <div class="area-foot-row">
-                <el-button type="primary" plain @click="ElMessage.info('可改名称，编码不可改')">编辑</el-button>
-                <el-button type="danger" plain @click="ElMessage.warning(areaSelNode.deep===0?'项目根不能停用':'停用后下级一并停用')">停用</el-button>
-                <el-button type="danger" plain @click="ElMessage.warning(areaSelNode.deep===0?'项目根不能删除':'请先处理下级')">删除</el-button>
+                <el-button type="primary" plain @click="ElMessage.info('省级节点可编辑名称与视口参数，编码不可改')">编辑</el-button>
+                <el-button type="danger" plain @click="ElMessage.warning('停用后下级一并停用')">停用</el-button>
+                <el-button type="danger" plain @click="ElMessage.warning(areaSelNode.children && areaSelNode.children.length ? '有下级不能直接删除，请先处理下级' : '确认删除（演示）')">删除</el-button>
               </div>
             </div>
           </div>
@@ -4412,7 +4512,9 @@ createApp({
                     </div>
                     <el-table :data="orgBound" height="100%" @selection-change="orgChecked=$event">
                       <el-table-column type="selection" width="42"/>
-                      <el-table-column prop="name" label="设备名称"/>
+                      <el-table-column prop="name" label="设备名称" min-width="120"/>
+                      <el-table-column prop="platform" label="所属下级平台" width="110"/>
+                      <el-table-column prop="orgPath" label="组织路径" min-width="170" show-overflow-tooltip/>
                       <el-table-column prop="at" :label="page==='unit'?'直接绑定单位':'直接绑定标签'"/>
                     </el-table>
                   </div>
@@ -4427,7 +4529,9 @@ createApp({
                 </div>
                 <el-table :data="orgBound" height="100%" @selection-change="orgChecked=$event">
                   <el-table-column type="selection" width="42"/>
-                  <el-table-column prop="name" label="设备名称"/>
+                  <el-table-column prop="name" label="设备名称" min-width="120"/>
+                  <el-table-column prop="platform" label="所属下级平台" width="110"/>
+                  <el-table-column prop="orgPath" label="组织路径" min-width="170" show-overflow-tooltip/>
                   <el-table-column prop="at" :label="page==='unit'?'直接绑定单位':'直接绑定标签'"/>
                 </el-table>
               </div>
@@ -4644,6 +4748,9 @@ createApp({
             <el-select v-model="govQuery.status" placeholder="请选择治理状态" clearable style="width:150px">
               <el-option label="待治理" value="0"/><el-option label="已暂存" value="1"/><el-option label="待审核" value="2"/><el-option label="已退回" value="3"/><el-option label="已完成" value="4"/>
             </el-select>
+            <el-select v-model="govQuery.platform" multiple collapse-tags placeholder="所属下级平台（可多选）" clearable style="width:210px">
+              <el-option v-for="p in govPlatformOptions" :key="p" :label="p" :value="p"/>
+            </el-select>
             <el-button type="primary" plain @click="govSearch">查询</el-button>
             <el-button type="danger" plain @click="govReset">重置</el-button>
           </div>
@@ -4662,12 +4769,6 @@ createApp({
               <span class="scope-hint">按当前目录节点分组。本任务未勾选规范名称，绑定不限定目录。</span>
             </template>
             <span v-else class="scope-label">目录体系：仅原始目录</span>
-            <span class="scope-gap"></span>
-            <span class="scope-label">视图</span>
-            <el-radio-group v-model="govViewMode" size="small">
-              <el-radio-button label="device">按设备</el-radio-button>
-              <el-radio-button label="cluster">按簇</el-radio-button>
-            </el-radio-group>
           </div>
           <div class="tools">
             <el-button @click="openExport">导出填报</el-button>
@@ -4675,7 +4776,6 @@ createApp({
             <el-button @click="openOneField">按一个字段写入</el-button>
             <el-button type="primary" :disabled="!govChecked.length" @click="openGovBatch">批量填写（{{ govChecked.length }} 台）</el-button>
           </div>
-          <template v-if="govViewMode==='device'">
             <el-table :data="govPagedView" row-key="id" @selection-change="govChecked=$event">
               <el-table-column type="selection" width="42" :selectable="govSelectable" reserve-selection/>
               <el-table-column prop="name" label="原始设备名称" min-width="180" show-overflow-tooltip>
@@ -4686,6 +4786,9 @@ createApp({
               </el-table-column>
               <el-table-column prop="deviceId" label="平台编码" width="200" show-overflow-tooltip/>
               <el-table-column prop="channelId" label="通道编码" width="200" show-overflow-tooltip/>
+              <el-table-column label="所属下级平台" width="140" show-overflow-tooltip>
+                <template #default="{ row }">{{ govPlatformOf(row) }}</template>
+              </el-table-column>
               <el-table-column label="字段进度" width="220">
                 <template #header>字段进度 <el-tooltip content="已填写字段数 / 本任务治理项总数"><span class="th-tip">?</span></el-tooltip></template>
                 <template #default="{ row }"><div class="field-progress"><el-progress :percentage="govPercent(row)" :show-text="false" :stroke-width="6" :color="govPercent(row)>=100?'#52c41a':''" style="width:80px"/><span>{{ govProgress(row).filled }}/{{ govProgress(row).total }} 已填写</span></div></template>
@@ -4698,29 +4801,6 @@ createApp({
               </el-table-column>
             </el-table>
             <div class="pager"><el-pagination background layout="total, prev, pager, next, sizes, jumper" :total="govView.length" :current-page="govPage" :page-size="govPageSize" :page-sizes="[10,20,50,100]" @current-change="govPageChange" @size-change="govSizeChange"/></div>
-          </template>
-          <template v-else>
-            <div class="cluster-hint">按目录分簇查看：每张卡片是一批设备，先看哪个簇待治理最多、缺口最集中，再整批进入治理。点「治理该簇」后，左侧列表只列该簇设备，可连续治理。</div>
-            <div class="cluster-grid">
-              <div v-for="c in govClusters" :key="c.dir" class="cluster-card">
-                <div class="cluster-hd">
-                  <div class="cluster-name">{{ c.label }}</div>
-                  <div class="cluster-count">{{ c.devices.length }} 台</div>
-                </div>
-                <div class="cluster-status">
-                  <span v-if="c.pending" class="st-pending">待治理 {{ c.pending }}</span>
-                  <span v-if="c.saved" class="st-saved">已暂存 {{ c.saved }}</span>
-                  <span v-if="c.rejected" class="st-rejected">已退回 {{ c.rejected }}</span>
-                </div>
-                <div v-if="c.gapList.length" class="cluster-gaps">
-                  <el-tag v-for="g in c.gapList" :key="g.key" size="small" type="warning" class="cluster-gap">{{ g.label }} 缺 <b>{{ g.count }}</b> 台</el-tag>
-                </div>
-                <div class="cluster-actions">
-                  <el-button type="primary" size="small" @click="openClusterGovern(c)">治理该簇（{{ c.devices.length }} 台）</el-button>
-                </div>
-              </div>
-            </div>
-          </template>
         </div>
       </section>
 
@@ -4868,7 +4948,7 @@ createApp({
         <el-radio label="checked" :disabled="!lockedChecked.length">已勾选 {{ lockedChecked.length }} 台</el-radio>
         <el-radio label="filter">当前筛选结果的全部 {{ listTotal }} 台</el-radio>
       </el-radio-group>
-      <el-radio-group v-model="batchField" class="dim-list" @change="batchValue=''">
+      <el-radio-group v-model="batchField" class="dim-list" @change="batchValue=''; batchAction='bind'">
         <el-radio v-if="showName" label="name">规范命名</el-radio>
         <el-radio label="unit">管理单位</el-radio>
         <el-radio label="tag">业务标签</el-radio>
@@ -4877,6 +4957,7 @@ createApp({
         <el-radio label="install">安装日期</el-radio>
         <el-radio label="warranty">维保到期</el-radio>
         <el-radio label="area">行政区划</el-radio>
+        <el-radio label="coord">经纬度</el-radio>
       </el-radio-group>
     </template>
     <template v-else>
@@ -4928,10 +5009,25 @@ createApp({
           <el-date-picker v-model="batchValue" type="date" value-format="YYYY-MM-DD" placeholder="请选择日期" style="width:100%"/>
           <div class="hint">写成同一个日期。不计入已治理。</div>
         </el-form-item>
+        <el-form-item v-else-if="batchField==='coord'" label="操作类型">
+          <div style="width:100%">
+            <el-radio-group v-model="batchAction">
+              <el-radio-button label="bind">标记不适用</el-radio-button>
+              <el-radio-button label="unbind">取消不适用</el-radio-button>
+            </el-radio-group>
+            <template v-if="batchAction==='bind'">
+              <el-select v-model="batchValue" style="width:100%;margin-top:8px" placeholder="请选择原因">
+                <el-option v-for="r in ['车载或移动点位','设备长期离线','待确认','暂不适用']" :key="r" :label="r" :value="r"/>
+              </el-select>
+              <div class="hint">批量不支持填同一坐标；「其他」需逐台填写说明，请到经纬度治理页操作。标记后按已治理口径统计。</div>
+            </template>
+            <el-alert v-else style="margin-top:8px" type="warning" :closable="false" title="取消后这些设备回到待治理队列，经纬度重新按未达标统计。"/>
+          </div>
+        </el-form-item>
         <el-form-item v-else label="行政区划">
           <div class="field-line">
             <el-input class="root-lock" model-value="浙江省" disabled/>
-            <el-cascader v-model="batchValue" class="area-cascader" placeholder="从市开始选" :options="areaOptions" :props="areaProps" clearable separator=" / "/>
+            <el-cascader v-model="batchValue" class="area-cascader" placeholder="从省开始选" :options="areaOptions" :props="areaProps" clearable separator=" / "/>
           </div>
           <div class="hint">省已锁定。这批设备挂到同一个节点，从市开始，可以停在中间层级。</div>
         </el-form-item>
@@ -5248,7 +5344,7 @@ createApp({
       <el-form-item v-if="naReason==='其他'" label="说明"><el-input maxlength="50" placeholder="最多 50 字"/></el-form-item>
       <el-form-item label="补充"><el-input type="textarea" maxlength="200" placeholder="可选"/></el-form-item>
     </el-form>
-    <template #footer><el-button @click="naOpen=false">取消</el-button><el-button type="primary" @click="naOpen=false; ElMessage.success('已标不适用。经度、纬度仍不具备')">确定</el-button></template>
+    <template #footer><el-button @click="naOpen=false">取消</el-button><el-button type="primary" @click="confirmNa">确定</el-button></template>
   </el-dialog>
 
   <el-dialog v-model="aiOpen" :title="aiMode==='start'?'发起标注':aiMode==='view'?'查看标注':'确认标注'" width="960px">
@@ -5354,14 +5450,21 @@ createApp({
                   <el-input :model-value="wbCurrent.values[field.key]" disabled/>
                 </template>
                 <template v-else-if="field.kind==='lng'">
-                  <div class="lng-row"><el-input v-model="wbForm.lng" placeholder="经度" @input="wbMark"/><el-input v-model="wbForm.lat" placeholder="纬度" @input="wbMark"/></div>
-                  <div class="lng-tools">
-                    <el-tooltip :disabled="wbCanReuse" content="上一台还没有已保存的坐标" placement="top">
-                      <span class="op-tip"><el-button :disabled="!wbCanReuse" @click="reuseWbPrev">沿用上一台</el-button></span>
-                    </el-tooltip>
+                  <div v-if="wbCurrent.values.lngNa" class="lng-row">
+                    <el-tag type="info" closable @close="wbCurrent.values.lngNa=''; wbNaMarked=false; wbMark()">不适用（{{ wbCurrent.values.lngNa }}）</el-tag>
+                    <el-button link type="primary" @click="wbCurrent.values.lngNa=''; wbNaMarked=false; wbMark()">取消不适用</el-button>
                   </div>
+                  <template v-else>
+                    <div class="lng-row"><el-input v-model="wbForm.lng" placeholder="经度" @input="wbMark"/><el-input v-model="wbForm.lat" placeholder="纬度" @input="wbMark"/></div>
+                    <div class="lng-tools">
+                      <el-tooltip :disabled="wbCanReuse" content="上一台还没有已保存的坐标" placement="top">
+                        <span class="op-tip"><el-button :disabled="!wbCanReuse" @click="reuseWbPrev">沿用上一台</el-button></span>
+                      </el-tooltip>
+                      <el-button link type="primary" @click="naSource='wb'; naOpen=true">标记不适用</el-button>
+                    </div>
+                  </template>
                   <div class="map gov-map"><div class="pin" :style="wbPin"></div></div>
-                  <div class="hint">{{ wbCoordHint }}</div>
+                  <div class="hint">{{ wbCurrent.values.lngNa ? '标记后提交审核，审核通过才生效；审核驳回可取消标记重填。' : wbCoordHint }}</div>
                 </template>
                 <el-select v-else-if="field.kind==='select'" v-model="wbForm[field.key]" style="width:100%" @change="wbMark">
                   <el-option label="枪机" value="枪机"/><el-option label="半球" value="半球"/><el-option label="球机" value="球机"/>
@@ -5563,7 +5666,7 @@ createApp({
         <el-descriptions-item label="原始名称">{{ govDetailRow.name }}</el-descriptions-item>
         <el-descriptions-item label="平台编码">{{ govDetailRow.deviceId }}</el-descriptions-item>
         <el-descriptions-item label="通道编码">{{ govDetailRow.channelId }}</el-descriptions-item>
-        <el-descriptions-item v-for="field in wbFields" :key="field.key" :label="field.label">{{ field.key==='standardName' && taskHasName(activeGovTask) ? (catalogName(govDetailRow, activeGovTask.nameCatalog) || '—') : (field.kind==='lng' ? (govDetailRow.values.lng + ',' + govDetailRow.values.lat) : govDetailRow.values[field.key]) }}</el-descriptions-item>
+        <el-descriptions-item v-for="field in wbFields" :key="field.key" :label="field.label">{{ field.key==='standardName' && taskHasName(activeGovTask) ? (catalogName(govDetailRow, activeGovTask.nameCatalog) || '—') : (field.kind==='lng' ? (govDetailRow.values.lngNa ? ('不适用（' + govDetailRow.values.lngNa + '）') : ((govDetailRow.values.lng || '—') + ',' + (govDetailRow.values.lat || '—'))) : govDetailRow.values[field.key]) }}</el-descriptions-item>
       </el-descriptions>
     </template>
   </el-dialog>
